@@ -1,0 +1,52 @@
+/* CountriesList */
+.NotVisitedLi {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 0.5px solid #94a3b8;
+  background-color: #1f1f2f;
+}
+
+.NotVisitedName {
+  color: #f1f5f9;
+  font-size: 18px;
+  margin: 0px;
+  margin-left: 20px;
+}
+
+.VisitBtn {
+  color: white;
+  background-color: #3b82f6;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  height: 35px;
+  width: 80px;
+  margin: 0px;
+  margin-right: 20px;
+}
+.NotVisitedBtn {
+  color: #cbd5e1;
+  text-align: left;
+  font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  .NotVisitedName {
+    font-size: 25px;
+  }
+  .NotVisitedBtn {
+    font-size: 20px;
+  }
+  .VisitBtn {
+    height: 40px;
+    font-size: 15px;
+  }
+}
